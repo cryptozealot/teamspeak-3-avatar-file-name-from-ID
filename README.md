@@ -21,10 +21,7 @@ Example:
 
 And the output should be :
 
-avatar_cgehjfnhfcmknpinapmaobfeocjiheddimfomdbn
-
-###################################################
-
+<blockquote>avatar_cgehjfnhfcmknpinapmaobfeocjiheddimfomdbn</blockquote>
 
 If your server is running on windows, here's what you need to do:
 
