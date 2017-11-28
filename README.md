@@ -24,7 +24,7 @@ And the output should be :
 <blockquote>avatar_cgehjfnhfcmknpinapmaobfeocjiheddimfomdbn</blockquote>
 
 
-That's all!
+<b>That's all!</b>
 
 
 If you are on windows or you want to know how this works - keep reading.
