@@ -23,6 +23,9 @@ And the output should be :
 
 <blockquote>avatar_cgehjfnhfcmknpinapmaobfeocjiheddimfomdbn</blockquote>
 
+
+That's all.. for now.
+
 If your server is running on windows, here's what you need to do:
 
 Get UID of user, base64 decode it, hexdump it and then replace each hex character from the dumped string with the letters of the alphabet like so:
@@ -46,5 +49,8 @@ Now that this script is complete, I will be making another script that will allo
 1. UID of user
 2. Path to TS3 server directory
 3. Avatar file to be uploaded
+
+
+This is a little bit more difficult because we have to querry the database and get the numerical ID of the user (not the UID, but the ID of the user and then we have to md5 hash the picture and replace the old md5 hash in the database with the new one, otherwise avatar doesnt show up)
 
 Stay tuned, links will be posted here when the new script is ready.
