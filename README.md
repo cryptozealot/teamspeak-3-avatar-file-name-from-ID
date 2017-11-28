@@ -24,9 +24,12 @@ And the output should be :
 <blockquote>avatar_cgehjfnhfcmknpinapmaobfeocjiheddimfomdbn</blockquote>
 
 
-That's all.. for now.
+That's all!
 
-If your server is running on windows, here's what you need to do:
+
+If you are on windows or you want to know how this works - keep reading.
+
+
 
 Get UID of user, base64 decode it, hexdump it and then replace each hex character from the dumped string with the letters of the alphabet like so:
 
