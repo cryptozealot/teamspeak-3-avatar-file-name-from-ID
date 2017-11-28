@@ -47,7 +47,7 @@ F = P <br>
 Resource: http://forum.teamspeak.com/threads/62525-Private-Chat-Logs?p=277589#post277589
 
 
-Now that this script is complete, I will be making another script that will allow TS3 admins to change user's avatar by inputing 3 arguments :
+This script is complete so I will be making another script that will allow TS3 admins to change a given user's avatar by inputing 3 arguments :
 
 1. UID of user
 2. Path to TS3 server directory
