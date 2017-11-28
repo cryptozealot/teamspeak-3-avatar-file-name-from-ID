@@ -10,6 +10,7 @@ Start the script with only 1 argument - the UID of the user.
 ./start {UID}
 
 Example:
+
 ##################################################
 
 ./start JkeV11LK340PwOFU4ph0M4xewx0=
