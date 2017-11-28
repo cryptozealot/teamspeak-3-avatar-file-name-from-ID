@@ -13,11 +13,11 @@ Start the script with 1 argument - the UID of the user.
 
 Example:
 
-##################################################
+<blockquote>
 
 <B>./ts3gavatar.sh JkeV11LK340PwOFU4ph0M4xewx0=</B>
 
-###################################################
+</blockquote>
 
 And the output should be :
 
@@ -30,15 +30,15 @@ If your server is running on windows, here's what you need to do:
 
 Get UID of user, base64 decode it, hexdump it and then replace each hex character from the dumped string with the letters of the alphabet like so:
 
-0 = A
-1 = B
-2 = C
-3 = D
-.
-.
-D = N
-E = O
-F = P
+0 = A <br>
+1 = B <br>
+2 = C <br>
+3 = D <br>
+. <br>
+. <br>
+D = N <br>
+E = O <br>
+F = P <br>
 
 
 Resource: http://forum.teamspeak.com/threads/62525-Private-Chat-Logs?p=277589#post277589
