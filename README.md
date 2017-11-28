@@ -8,14 +8,14 @@ ts3gavatar.sh script takes UID (Unique User ID) as input and outputs the name of
 Start the script with 1 argument - the UID of the user.
 
 
-<B>./ts3gavatar.sh {UID}</B>
+<blockquote><B>./ts3gavatar.sh {UID}</B></blockquote>
 
 
 Example:
 
 <blockquote>
 
-<B>./ts3gavatar.sh JkeV11LK340PwOFU4ph0M4xewx0=</B>
+./ts3gavatar.sh JkeV11LK340PwOFU4ph0M4xewx0=
 
 </blockquote>
 
