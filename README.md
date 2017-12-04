@@ -11,7 +11,7 @@ Start the script with 1 parameter - the UID of the user.
 <blockquote><B>./ts3gavatar.sh {UID}</B></blockquote>
 
 
-Example:
+<b>USAGE:</b>
 
 <blockquote>
 
