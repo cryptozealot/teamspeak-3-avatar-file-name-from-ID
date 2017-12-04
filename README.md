@@ -7,11 +7,11 @@ ts3gavatar.sh script takes UID (Unique User ID) as input and outputs the name of
 
 Start the script with 1 parameter - the UID of the user.
 
+<b>USAGE:</b>
 
 <blockquote><B>./ts3gavatar.sh {UID}</B></blockquote>
 
-
-<b>USAGE:</b>
+<b>EXAMPLE:</b>
 
 <blockquote>
 
