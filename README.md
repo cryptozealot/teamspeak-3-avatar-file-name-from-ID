@@ -19,7 +19,7 @@ Start the script with 1 parameter - the UID of the user.
 
 </blockquote>
 
-And the output should be :
+<b>Output from example:</b>
 
 <blockquote>avatar_cgehjfnhfcmknpinapmaobfeocjiheddimfomdbn</blockquote>
 
