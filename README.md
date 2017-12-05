@@ -1,4 +1,4 @@
-# teamspeak-3-avatar-file-name-from-ID
+# teamspeak-3-avatar-file-name-from-UID
 Linux bash script that finds avatar file name for user in teamspeak 3 server by given UID.
 
 Safe to use, doesn't overwrite anything, takes UID as input and outputs the avatar file name for that id in console.
