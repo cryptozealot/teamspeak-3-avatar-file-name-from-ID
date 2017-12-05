@@ -1,9 +1,11 @@
 # teamspeak-3-avatar-file-name-from-ID
 Linux bash script that finds avatar file name for user in teamspeak 3 server by given UID.
 
-Teamspeak 3 has its own system for mananging user's avatars. It's real pain if you have to find a given user's avatar or if you have to find to whom does a particular avatar file belong.
+Safe to use, doesn't overwrite anything takes UID as input and outputs the avatar file name for that id.
 
-ts3gavatar.sh script takes UID (Unique User ID) as input and outputs the name of the avatar file.
+<a href="https://github.com/cryptozealot/teamspeak-3-avatar-file-name-from-UID/blob/master/ts3gavatar.sh">ts3gavatar.sh</a>  script takes UID (Unique User ID) as input and outputs the name of the avatar file.
+
+Teamspeak 3 has its own system for mananging user's avatars. It's real pain if you have to find a given user's avatar or if you have to find to whom does a particular avatar file belong.
 
 Start the script with 1 parameter - the UID of the user.
 
@@ -47,13 +49,4 @@ F = P <br>
 Resource: http://forum.teamspeak.com/threads/62525-Private-Chat-Logs?p=277589#post277589
 
 
-This script is complete so I will be making another script that will allow TS3 admins to change a given user's avatar by inputing 3 arguments :
-
-1. UID of user
-2. Path to TS3 server directory
-3. Avatar file to be uploaded
-
-
-This is a little bit more difficult because we have to querry the database and get the numerical ID of the user (not the UID, but the ID of the user and then we have to md5 hash the picture and replace the old md5 hash in the database with the new one, otherwise avatar doesnt show up)
-
-Stay tuned, links will be posted here when the new script is ready.
+For the automated script that overwrites avatar and database use <a href="https://github.com/cryptozealot/ts3-change-user-avatar-by-nickname/blob/master/ts3chavatar.sh">ts3chavatar.sh</a>
